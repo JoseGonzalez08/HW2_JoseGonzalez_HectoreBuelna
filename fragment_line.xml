@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ap="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".LineFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.androidplot.xy.XYPlot
+        android:id="@+id/barPlot"
+        style="@style/APDefacto.Light"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="line fragment"
+        ap:domainTitle="domain"
+        ap:lineLabelRotationBottom="-45"
+        ap:lineLabels="left|bottom"
+        ap:rangeTitle="range"
+        ap:title="Line Chart" />
+
+</LinearLayout>
